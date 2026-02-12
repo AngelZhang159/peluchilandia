@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Detalles del producto - Peluchilandia. Descubre las características, materiales y precios de nuestros peluches de alta calidad.">
+    <title>Producto - Peluchilandia</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="producto.js"></script>
+    <link rel="icon" type="image/png" href="./favicon.ico">
+</head>
+
+<body>
+    <!--Header-->
+    <header role="banner">
+        <a href="./index.html" aria-label="Ir a la página de inicio de Peluchilandia">PELUCHILANDIA</a>
+        <nav role="navigation" aria-label="Navegación principal">
+            <a href="./index.html">HOME</a>
+            <a href="./compra.html">COMPRA</a>
+            <a href="./sobre-nosotros.html">SOBRE NOSOTROS</a>
+            <a href="./carrito.html" aria-label="Ver carrito de compra"><img src="img/shopping-cart-icon.svg"
+                    alt="Carrito de compra" aria-hidden="true"></a>
+        </nav>
+    </header>
+
+    <!--Contenido principal-->
+    <main id="main-content" role="main">
+        <div id="notificacionCompra" class="" role="status" aria-live="polite" aria-atomic="true">Producto añadido al
+            carrito</div>
+        <section class="producto" aria-label="Detalles del producto">
+            <div>
+                <a href="./compra.html" aria-label="Volver a la página de compra">
+                    <div class="btn-back" role="img" aria-label="Flecha de retroceso"></div>
+                </a>
+            </div>
+            <div class="prod-img-principal" id="prod-img-principal" role="img"
+                aria-label="Imagen principal del producto">
+                <img src="img/placeholder.svg" alt="Cargando imagen del producto">
+            </div>
+            <div class="prod-img-carrusel" id="prod-img-carrusel" role="region"
+                aria-label="Galería de imágenes del producto">
+                <img src="img/placeholder.svg" alt="Peluche de gato de frente derecha" role="button" tabindex="0">
+                <img src="img/placeholder.svg" alt="Peluche de gato derecha" role="button" tabindex="0">
+                <img src="img/placeholder.svg" alt="Peluche de gato de espaldas" role="button" tabindex="0">
+                <img src="img/placeholder.svg" alt="Peluche de gato de frente izquierda" role="button" tabindex="0">
+                <img src="img/placeholder.svg" alt="Peluche de gato de frente izquierda" role="button" tabindex="0">
+            </div>
+            <div class="prod-desc">
+                <h1 id="prod-nombre">░░░░</h1>
+                <span class="prod-precio" id="prod-precio" aria-label="Precio del producto">░░░ EUR</span>
+                <br>
+                <span class="prod-medidas" id="prod-medidas" aria-label="Medidas del producto">H ░░░ W ░░ D ░░</span>
+                <ul class="prod-materiales" id="prod-materiales" aria-label="Materiales del producto">
+                </ul>
+                <div id="prod-stock" role="status" aria-live="polite">
+                </div>
+                <button id="prod-btn-compra" class="prod-btn-carrito btn-compra" type="button"
+                    aria-label="Añadir producto al carrito">AÑADIR AL CARRITO</button>
+            </div>
+        </section>
+
+        <section class="descripcion-producto" aria-label="Descripción detallada del producto">
+            <h2 id="prod-desc-titulo">░░░░░░░░░░░░░░░░░░░░░</h2>
+            <div>
+                <p id="prod-desc">
+                </p>
+                <img id="prod-desc-img" src="img/placeholder.svg" alt="Persona abrazando un peluche de gato" role="img">
+            </div>
+        </section>
+    </main>
+    <!--Footer-->
+    <footer role="contentinfo">
+        <br>
+        <div class="body-footer">
+            <p>En Peluchilandia, creemos que cada abrazo cuenta. Fundada en 2021 por tres amigos amantes de los peluches
+                y
+                la fantasía, nuestra tienda nació con una misión clara: llenar el mundo de ternura, color y personajes
+                que
+                despierten sonrisas.</p>
+            <nav role="navigation" aria-label="Navegación del pie de página">
+                <a href="./index.html">HOME</a>
+                <a href="./compra.html">COMPRA</a>
+                <a href="./sobre-nosotros.html">SOBRE NOSOTROS</a>
+            </nav>
+        </div>
+        <div class="end-footer">
+            <a href="./index.html" class="logo-footer">PELUCHILANDIA</a>
+            <span>ANGEL ZHANG © 2025</span>
+        </div>
+    </footer>
+</body>
+
+</html>
