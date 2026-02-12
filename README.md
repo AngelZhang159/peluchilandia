@@ -18,7 +18,7 @@ Peluchilandia es una tienda en línea especializada en la venta de peluches. Est
 - Interfaz moderna y amigable
 - Página "Sobre Nosotros"
 
-## 🛠️ Stack Tecnológico
+## Stack Tecnológico
 
 | Tecnología | Descripción |
 |-----------|-------------|
@@ -27,7 +27,7 @@ Peluchilandia es una tienda en línea especializada en la venta de peluches. Est
 | **CSS3** | Estilos |
 | **JavaScript** | Interactividad y lógica del negocio |
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 peluchilandia/
@@ -44,7 +44,7 @@ peluchilandia/
 └── img/                    # Imágenes y recursos
 ```
 
-## 🚀 Instalación y Uso
+## Instalación y Uso
 
 1. **Clonar el repositorio**
    ```sh
@@ -62,20 +62,20 @@ peluchilandia/
    - Añade productos al carrito
    - Completa el proceso de compra
 
-## 🎨 Diseño
+## Diseño
 
 El diseño del sitio se realizó en Figma siguiendo principios de UI/UX modernos. Puedes ver el prototipo de alta fidelidad en el siguiente enlace:
 
-👉 [Ver diseño en Figma](https://www.figma.com/design/s3ltcfFg0ajMUSsxHbg8zv/Prototipo-alta-fidelidad?node-id=3-5&t=hCJD8MK2AsaWoLRh-1)
+[Ver diseño en Figma](https://www.figma.com/design/s3ltcfFg0ajMUSsxHbg8zv/Prototipo-alta-fidelidad?node-id=3-5&t=hCJD8MK2AsaWoLRh-1)
 
-## 📝 Funcionalidades Técnicas
+## Funcionalidades Técnicas
 
 - **Gestión de productos**: Sistema de catálogo con datos estructurados
 - **Carrito persistente**: Almacenamiento local de productos seleccionados
 - **Cálculo dinámico**: Actualización automática de totales y cantidades
 - **Validación de formularios**: Verificación de datos en el proceso de compra
 
-## 👨‍💻 Desarrollo
+## Desarrollo
 
 Este proyecto ha sido desarrollado como parte del módulo de **Desarrollo de Aplicaciones Web (DAW)**, enfocándose en:
 
